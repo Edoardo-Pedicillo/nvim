@@ -1,3 +1,4 @@
+vim.cmd[[let g:airline#extensions#tabline#enabled = 1]]
 vim.cmd[[let g:airline_theme="deus"]]
 vim.cmd[[let g:airline_powerline_fonts = 1]]
 

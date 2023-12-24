@@ -74,25 +74,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ale = {
-    loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/ale",
-    url = "https://github.com/dense-analysis/ale"
-  },
-  ["coc.nvim"] = {
-    loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
-  },
   ["context.vim"] = {
     loaded = true,
     path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/context.vim",
     url = "https://github.com/wellle/context.vim"
-  },
-  ["ctrlsf.vim"] = {
-    loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/ctrlsf.vim",
-    url = "https://github.com/dyng/ctrlsf.vim"
   },
   ["dracula.nvim"] = {
     loaded = true,
@@ -104,30 +89,40 @@ _G.packer_plugins = {
     path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
-  ["indentpython.vim"] = {
-    loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/indentpython.vim",
-    url = "https://github.com/vim-scripts/indentpython.vim"
-  },
-  ["lualine.nvim"] = {
-    loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
   ["marks.nvim"] = {
     loaded = true,
     path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/marks.nvim",
     url = "https://github.com/chentoast/marks.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
   },
   nerdtree = {
     loaded = true,
     path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/preservim/nerdtree"
   },
-  ["nvim-tree.lua"] = {
+  ["noice.nvim"] = {
     loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
+    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/noice.nvim",
+    url = "https://github.com/folke/noice.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -143,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -169,25 +169,15 @@ _G.packer_plugins = {
     path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
   },
-  ["vim-flake8"] = {
+  ["vim-doge"] = {
     loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/vim-flake8",
-    url = "https://github.com/nvie/vim-flake8"
+    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/vim-doge",
+    url = "https://github.com/kkoomen/vim-doge"
   },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vim-tmux-navigator"] = {
-    loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
-    url = "https://github.com/christoomey/vim-tmux-navigator"
-  },
-  ["vim-visual-multi"] = {
-    loaded = true,
-    path = "/home/edoardo_pedicillo/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
-    url = "https://github.com/mg979/vim-visual-multi"
   },
   vimtex = {
     loaded = true,

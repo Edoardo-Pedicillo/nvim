@@ -6,4 +6,5 @@ vim.keymap.set('n', '<leader>bs', builtin.lsp_document_symbols, {})
 vim.keymap.set('n', '<leader>t', builtin.treesitter, {})
 vim.keymap.set('n', '<leader>p', builtin.planets, {})
 vim.keymap.set('n', '<leader>gd', builtin.lsp_definitions, {})
-
+vim.keymap.set('n', '<leader>b', builtin.buffers, {})
+vim.keymap.set('n', '<leader>cf', builtin.current_buffer_fuzzy_find, {})

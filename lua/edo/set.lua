@@ -29,7 +29,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
-
+vim.cmd[[autocmd BufReadPost,FileReadPost * normal zR]]
 -- vim.lsp.handlers\["textDocument/publishDiagnostics"\] = vim.lsp.with(
 --   vim.lsp.diagnostic.on\_publish\_diagnostics, {
 --     virtual\_text = {
